@@ -1,0 +1,141 @@
+/* Global styles for SyncMarket Pro */
+body {
+  margin: 0;
+  background: #020617;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 280px;
+  background: #0f172a;
+  border-right: 1px solid #1e293b;
+  padding: 24px;
+}
+
+.sidebar h1 {
+  margin: 0;
+}
+
+.sidebar p {
+  color: #94a3b8;
+}
+
+.sidebar button,
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 14px;
+  padding: 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.product-list {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product-item {
+  background: #020617;
+  border: 1px solid #1e293b;
+  padding: 14px;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.product-item span {
+  display: block;
+  color: #38bdf8;
+  margin-top: 4px;
+}
+
+.main {
+  flex: 1;
+  padding: 28px;
+}
+
+.card,
+.top-card {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 22px;
+  padding: 22px;
+}
+
+input,
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: #020617;
+  border: 1px solid #334155;
+  color: white;
+  border-radius: 14px;
+  padding: 13px;
+  margin-bottom: 12px;
+}
+
+textarea {
+  height: 130px;
+}
+
+.primary {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.preview {
+  width: 100%;
+  border-radius: 18px;
+  margin-top: 14px;
+}
+
+.top-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 380px 1fr;
+  gap: 22px;
+}
+
+.design-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.design {
+  background: #020617;
+  border: 1px solid #1e293b;
+  border-radius: 18px;
+  padding: 12px;
+}
+
+.design img {
+  width: 100%;
+  border-radius: 14px;
+}
+
+.design strong {
+  display: block;
+  margin: 10px 0;
+}
